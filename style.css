@@ -112,15 +112,16 @@ body {
 }
 .hours {
   width: 10px;
-  height: 35%;
+  height: 28%;
   background-color: white;
 }
 .cities {
-  display: flex;
-  flex-direction: row;
-
   font-size: 30px;
-
+  text-align: center;
   color: red;
-  gap: 250px;
+  margin-top: 30px;
+}
+.a {
+  display: flex;
+  flex-direction: column;
 }
