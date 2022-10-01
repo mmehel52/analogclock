@@ -8,7 +8,7 @@ function tiktak() {
   let hour = new Date().getHours();
   sec.style.transform = `rotate(${second * 6}deg)`;
   min.style.transform = `rotate(${minute * 6}deg)`;
-  hours.style.transform = `rotate(${(hour - 7) * 30}deg)`;
+  hours.style.transform = `rotate(${(hour - 6) * 30}deg)`;
 }
 
 setInterval(tiktak, 1000);
@@ -25,7 +25,7 @@ function tiktak2() {
   let hour2 = new Date().getHours();
   sec2.style.transform = `rotate(${second2 * 6}deg)`;
   min2.style.transform = `rotate(${minute2 * 6}deg)`;
-  hours2.style.transform = `rotate(${hour2 * 30}deg)`;
+  hours2.style.transform = `rotate(${(hour2 + 1) * 30}deg)`;
 }
 
 setInterval(tiktak2, 1000);
@@ -42,7 +42,7 @@ function tiktak3() {
   let hour3 = new Date().getHours();
   sec3.style.transform = `rotate(${second3 * 6}deg)`;
   min3.style.transform = `rotate(${minute3 * 6}deg)`;
-  hours3.style.transform = `rotate(${(hour3 + 6) * 30}deg)`;
+  hours3.style.transform = `rotate(${(hour3 + 7) * 30}deg)`;
 }
 
 setInterval(tiktak3, 1000);
